@@ -19,7 +19,9 @@
                   }
               }
         </script>
-
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="
+		sha384-ggOyr0iXCbMQv3Xipma34Md+dH/1fQ784/j6cy/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" type= "text/css" href="assets/css/style.css">
         <title></title>
         <link href="https://fonts.googleapis.com/css?family=Monsterrat:400,800" rel="stylesheet">
@@ -48,7 +50,7 @@
 
 
                   					<ul id="navigation">
-                  						<li><a href="index.html#contact">Contact</a></li>
+                  						<li><b><a href="index.html#contact">Contact</a></b></li>
 
                   					</ul>
                   				</div>
@@ -124,7 +126,7 @@
                                 <div class = "website-text">
                                   <div class= "play-btn">
                                     <div class="play-btn-inner"> <i class="fa fa-play" onclick ="manage()"> </i> </div>
-                                    <small><b>Rolling down the windows and playing the radio.</b></small>
+                                    <small><b>Play some music as you scroll.</b></small>
                                   </div>
                   							<div id="corner-br" class="corner"></div>
                   							<div id="corner-bl" class="corner"></div>
@@ -139,10 +141,86 @@
             </div>
             <section class="s2">
           		<div class="main-container">
-              </div>
+					  <div class="about-wrapper">
+						  <div class= "about-me">
+							<h4>About me</h4>
+							<p>I am fourth year Data Science Major at the University of California, Berkeley. I love buiding and creating, see my work below!
+							</p>
+
+							<hr>
+
+							<h4>Skills</h4>
+						
+							<p>Fullstack developer with primary focus on Python and Java: <a target="_blank" href="resume.pdf"> Download Resume</a></p>
+
+
+
+
+
+							<style>
+								th{
+									color:#fff'
+								}
+							</style>
+
+						<table class="skills">
+							<tr class="info">
+								<th id="topRow">Language</th>
+								<td></td>
+								<th id="topRow">Level</th>
+							</tr>
+												
+							<tbody id="myTable">
+							<td id="evenRow">HTML</td>
+							<td></td>
+							<td id="evenRow">Proficient</td>
+							<tr></tr>
+							<td>CSS</td>
+							<td></td>
+							<td>Proficient</td>
+							<tr></tr>
+							<td id="evenRow">Python</td>
+							<td></td>
+							<td id="evenRow">Advanced</td>
+							<tr></tr>
+							<td>SQL</td>
+							<td></td>
+							<td>Proficient</td>
+							<tr></tr>
+							<td id="evenRow">Java</td>
+							<td></td>
+							<td id="evenRow">Advanced</td>
+							</tbody>
+						</table>
+
+						<script>
+							myArray = [
+							{'Language':'HTML', 'Level': 'Proficient'},
+							{'Language':'CSS', 'Level': 'Proficient'},
+							{'Language':'Java', 'Level': 'Proficient'},
+							{'Language':'SQL', 'Level': 'Proficient'},
+							{'Language':'Python', 'Level': 'Proficient'},]
+							buildTable(myArray)
+
+							function buildTable(data){
+								var table = document.getElemenyById('myTable')
+
+								for(var i=0; i < data.length; i++){
+									var row = `<tr>
+									<td>${data[i].Language}</td>
+									<td>${data[i].Level}</td>
+									</tr>`
+									table.innerHTML += row
+								}
+							}
+						</script>
+						</div>
+					</div>
+				</div>
             </section>
             <section class="s1">
               <div class="main-container">
+				  Portfolio
               </div>
             </section>
         </div>
