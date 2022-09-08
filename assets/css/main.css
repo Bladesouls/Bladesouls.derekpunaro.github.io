@@ -98,7 +98,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #312450;
+		background:  #adefd1#adefd1;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2356,7 +2356,7 @@ input, select, textarea {
 
 		select option {
 			color: #ffffff;
-			background: #312450;
+			background: #adefd1;
 		}
 
 		select:focus::-ms-value {
@@ -2444,7 +2444,7 @@ input, select, textarea {
 		input[type="radio"]:checked + label:before {
 			background: #ffffff;
 			border-color: #ffffff;
-			color: #b74e91;
+			color: #d7a9e3;
 			content: '\f00c';
 		}
 
@@ -2525,7 +2525,7 @@ input, select, textarea {
 			display: block;
 			background: #ffffff;
 			border-radius: 100%;
-			color: #312450;
+			color: #d7a9e3;
 			text-align: center;
 			line-height: 2.5em;
 			margin: 0 0 1.3em 0;
@@ -2536,27 +2536,27 @@ input, select, textarea {
 			}
 
 				.wrapper.style1 .icon.major:before {
-					color: #00203FFF;
+					color:#d7a9e3;
 				}
 
 				.wrapper.style1-alt .icon.major:before {
-					color: rgb(173, 239, 209);
+					color:#d7a9e3;
 				}
 
 				.wrapper.style2 .icon.major:before {
-					color: hsl(210, 100%, 12%);
+					color:#d7a9e3;
 				}
 
 				.wrapper.style2-alt .icon.major:before {
-					color: rgb(173, 239, 209);
+					color:#d7a9e3;
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: hsl(210, 100%, 12%);
+					color:#d7a9e3;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
-					color: rgb(173, 239, 209);
+					color:#d7a9e3;
 				}
 
 /* Image */
@@ -3022,7 +3022,7 @@ input, select, textarea {
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
-				background: rgba(49, 36, 80, 0.9);
+				background: white;
 				content: '';
 				display: block;
 				height: 100%;
@@ -3240,27 +3240,27 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: #8abad3;
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: #8abad3;
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			background-color: #00203f;
 		}
 
 		.wrapper.style2-alt {
-			background-color: #3e4094;
+			background-color: #00203f;
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: #d7a9e3;
 		}
 
 		.wrapper.style3-alt {
-			background-color: #953d75;
+			background-color: #d7a9e3;
 		}
 
 		.wrapper.fullscreen {
@@ -3370,7 +3370,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #5e42a6;
+		background-color: #d7a9e3;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
@@ -3524,7 +3524,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		background: #00203f;
 		cursor: default;
 		height: 100vh;
 		left: 0;
